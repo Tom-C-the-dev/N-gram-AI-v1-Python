@@ -2,7 +2,7 @@ import random
 from random import randint
 
 # the base material
-source = open("AI/sonnet 18.txt", "r")
+source = open("sonnet 18.txt", "r")
 
 # variables
 
