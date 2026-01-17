@@ -1,4 +1,11 @@
 # N-gram-AI-v1-Python
-version 1 of my N-gram model in python. Mainly made to write a Shakespearean sonnet. Doesn't yet use any words for context or temperature. Basically an over glorified random words selection program. Is just a proof of concept.
+All versions of my N-gram model in python. Mainly made to write a Shakespearean sonnet.
+v1 - proof of concept; doesnt have temperature or word context
+v2 - added word context but is liable to a degeneracy loop
+v3 - added temperature and updated word context; fully working
 
-for use change variable source to read the file that you want it to.
+for use:
+'source' - file that it trains off of'
+'n' - amount of word context (1 is 2  words of context)
+'temperature' - how random the generation is (0 being not random, 1 being mildly random etc)
+'word_count' - amount of words it writes (roughly)
